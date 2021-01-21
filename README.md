@@ -46,13 +46,9 @@ Using USB Cable //Ideal for Realtime Camera Tracking Solution
 
 >>>> then upload to your arduino device
 
->>>> upload the sketch file to your arduino device
-
 >>>> connect your arduino device with USB cable to PC that will be running "LiveLink_Data_Sender_V1/MainProgram.exe" (all the devices must be under same subnet!!!)
 
 >>>> run MainProgram and update the setting then save it...and hit send
-
->>>> run LiveLink_Data_Sender_V1/MainProgram.exe
   
 >>>> run the unreal project
 
