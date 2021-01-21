@@ -53,6 +53,6 @@ Using WIFI  //Ideal for external control over network (data transfer speed might
 
 >>>> run the unreal project
 
->>>> >>>> update the blueprint by selecting available connection, check the attached screenshot as guideline
+>>>> update the blueprint by selecting available connection, check the attached screenshot as guideline
   
  //--------------------------------------------------------------------------------------------------------------------------------------------------------//  
