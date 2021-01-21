@@ -1,2 +1,3 @@
 # Z_Tracker
-Sending IMU Tracking data from Arduino board &amp; sensors over sockets
+Sending data from Arduino board / sensors to Unreal Engine LiveLink over sockets.
+
