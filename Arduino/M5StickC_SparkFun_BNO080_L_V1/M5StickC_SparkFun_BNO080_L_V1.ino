@@ -10,7 +10,7 @@
 //---Output Mode Selection---//
 // Set bool wifi_udp_output = false >>>if you wanna use USB Cable (Serial Com Port)
 bool serial_output = true; //Using USB Cable...Ideal for Realtime Camera Tracking Solution <<<running with LiveLink_Data_Sender>>>
-bool wifi_udp_output = true; // Using Wifi...Ideal for external control over network (data transfer speed might be vary based on your router and arduino board!!!)
+bool wifi_udp_output = false; // Using Wifi...Ideal for external control over network (data transfer speed might be vary based on your router and arduino board!!!)
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx//
 
@@ -21,8 +21,8 @@ float roll, pitch, yaw;
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx//
 
 //Wifi SSID and password
-const char * networkSSID = "studio@sph"; //your wifi SSID
-const char * networkPass = "DCiik4kW"; //your wifi password
+const char * networkSSID = "xxxxx"; //your wifi SSID
+const char * networkPass = "12345"; //your wifi password
 
 
 /*
@@ -38,8 +38,8 @@ const char * networkPass = "DCiik4kW"; //your wifi password
 //-------------------------------------------//
 
 //UE4 LiveLink IP & Port
-const char * udpAddress = "10.134.1.204"; // your UE4_LiveLink IP Address
-const int udpPort = 54321; //Port
+const char * udpAddress = "88.888.8.888"; // your UE4_LiveLink IP Address
+const int udpPort = 20000; //Port
 
 //UE4 LONET_LiveLink Data Packet Structure
 byte prefix = 0XF2;
