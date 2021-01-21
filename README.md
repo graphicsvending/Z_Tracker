@@ -29,16 +29,13 @@ bool wifi_udp_output = true; // Using Wifi...Ideal for external control over net
 
 
 
+Using USB Cable //Ideal for Realtime Camera Tracking Solution
+//modify the arduino sketch file...set bool serial_output = true; bool wifi_udp_output = false; then upload to your arduino device
+//Steps >>>> arduino IDE >>>> connect your arduino device with USB cale to any pc that will be running "LiveLink_Data_Sender_V1/MainProgram.exe" >>>>
+  run MainProgram and update the setting then save it...and hit send >>>> run LiveLink_Data_Sender_V1/MainProgram.exe >>>>
+  run the unreal project and update the blueprint by selecting available connection * >>> 
   
-#LiveLink_Data_Sender_V1 is included
-
-<<Using USB Cable>> Ideal for Realtime Camera Tracking Solution <<<running with LiveLink_Data_Sender>>>
-  //modify the arduino sketch file...set bool serial_output = true; bool wifi_udp_output = false; then upload to your arduino device
-  //Steps >>>> arduino IDE >>>> connect your arduino device with USB cale to any pc that will be running "LiveLink_Data_Sender_V1/MainProgram.exe" >>>>
-    run MainProgram and update the setting then save it...and hit send >>>> run LiveLink_Data_Sender_V1/MainProgram.exe >>>>
-    run the unreal project and update the blueprint by selecting available connection * >>> 
-  
-<<Using WIFI>> Ideal for external control over network (data transfer speed might be vary based on your router and arduino board!!!)
+Using WIFI  //Ideal for external control over network (data transfer speed might be vary based on your router and arduino board!!!)
   modify the arduino sketch file... set bool serial_output = true; bool wifi_udp_output = true;
   dont forget to set your SSID and SSID password, set the IP address and port(unreal engine system)
   //Steps >>>> arduino IDE >>>> run the unreal project and update the blueprint by selecting available connection >>> 
