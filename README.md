@@ -25,22 +25,34 @@ Instruction:
 
 Using USB Cable //Ideal for Realtime Camera Tracking Solution
 
-modify the arduino sketch file...set bool serial_output = true; bool wifi_udp_output = false; then upload to your arduino device
+>>>> arduino IDE //modify the arduino sketch file...set bool serial_output = true;   bool wifi_udp_output = false;
 
-Steps >>>> arduino IDE >>>> connect your arduino device with USB cale to any pc that will be running "LiveLink_Data_Sender_V1/MainProgram.exe" >>>>
+>>>> then upload to your arduino device
 
-run MainProgram and update the setting then save it...and hit send >>>> run LiveLink_Data_Sender_V1/MainProgram.exe >>>>
+>>>> upload the sketch file to your arduino device
+
+>>>> connect your arduino device with USB cable to PC that will be running "LiveLink_Data_Sender_V1/MainProgram.exe" (all the devices must be under same subnet!!!)
+
+>>>> run MainProgram and update the setting then save it...and hit send
+
+>>>> run LiveLink_Data_Sender_V1/MainProgram.exe
   
-run the unreal project and update the blueprint by selecting available connection, check the attached screenshot as guideline >>> 
+>>>> run the unreal project
+
+>>>> update the blueprint by selecting available connection, check the attached screenshot as guideline
   
 //--------------------------------------------------------------------------------------------------------------------------------------------------------//  
   
 Using WIFI  //Ideal for external control over network (data transfer speed might be vary based on your router and arduino board!!!)
+  
+>>>> arduino IDE //modify the arduino sketch file... set bool serial_output = true;   bool wifi_udp_output = true;
 
-  modify the arduino sketch file... set bool serial_output = true; bool wifi_udp_output = true;
-  
-  don't forget to set your SSID and SSID password, set the IP address and port(unreal engine system)
-  
-  Steps >>>> arduino IDE >>>> run the unreal project and update the blueprint by selecting available connection, check the attached screenshot as guideline>>> 
+>>>> don't forget to set your SSID and SSID password, set the IP address and port(unreal engine system)
+
+>>>> upload the sketch file to your arduino device
+
+>>>> run the unreal project
+
+>>>> >>>> update the blueprint by selecting available connection, check the attached screenshot as guideline
   
  //--------------------------------------------------------------------------------------------------------------------------------------------------------//  
