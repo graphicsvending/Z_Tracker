@@ -24,9 +24,11 @@ Unreal Engine:
 
 https://www.unrealengine.com/en-US/download
 
+*** Lonet Plugin and UE4 Livelink Plugin needed
+
 //-----------------------------------------------------------------------------------------------------------------------//
 
-LONET Unreal Engine Plugin:
+LONET LiveLink Unreal Engine Plugin:
 
 https://www.loledvirtual.com/documentation/docs/unrealreleases
 
