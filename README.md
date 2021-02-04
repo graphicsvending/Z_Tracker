@@ -1,6 +1,8 @@
 # Z_Tracker
 Sending data from Arduino board / sensors to Unreal Engine LiveLink over sockets.
 
+>>>4-Feb-2021---Fixed Socket I/O error on UE4 Package project (LONET_Client Plugin has been replaced with Z_TRACKERLiveLink)
+
 //-----------------------------------------------------------------------------------------------------------------------//
 
 Arduino / Devices:
@@ -15,7 +17,7 @@ Qwiic Cable/Connector https://www.sparkfun.com/products/14425
 
 Unreal Project Example:
 
-4.26 (able to package your project)
+project ver: 4.26
 
 https://drive.google.com/drive/folders/1VLsQt1B19Ilpa-ymeBVlP7oMbGEIMG13?usp=sharing
 
