@@ -15,7 +15,8 @@ Qwiic Cable/Connector https://www.sparkfun.com/products/14425
 
 Unreal Project Example:
 
-https://drive.google.com/drive/folders/1AvKncUKn2HHuYEwR0Ai7arrMwyl58q17?usp=sharing
+4.26 (able to package your project)
+https://drive.google.com/drive/folders/1VLsQt1B19Ilpa-ymeBVlP7oMbGEIMG13?usp=sharing
 
 
 //-----------------------------------------------------------------------------------------------------------------------//
@@ -24,15 +25,13 @@ Unreal Engine:
 
 https://www.unrealengine.com/en-US/download
 
-*** Lonet Plugin and UE4 Livelink Plugin needed
-
 //-----------------------------------------------------------------------------------------------------------------------//
 
-LONET LiveLink Unreal Engine Plugin:
+UE4 Plugin:
 
-https://www.loledvirtual.com/documentation/docs/unrealreleases
-
-https://www.loledvirtual.com/documentation/docs/lonetdev
+UE4 Livelink (default plugin)
+Z_TRACKERLiveLink (included)
+ZT_QuaternionRotation (included)
 
 //-----------------------------------------------------------------------------------------------------------------------//
 
