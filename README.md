@@ -28,7 +28,7 @@ https://www.unrealengine.com/en-US/download
 
 //-----------------------------------------------------------------------------------------------------------------------//
 
-UE4 Plugin:
+UE4 Plugins:
 
 UE4 Livelink (default plugin)
 
